@@ -1,0 +1,96 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background: url(/assets/img/bg.png);
+}
+
+a, a:visited {
+  text-decoration:none;
+  color: #4D1A62;
+}
+
+h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited  {
+  color: #EE3C00;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding: 0 0 0 10px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0.5em 0;
+}
+
+h1 {
+  
+}
+
+h2 {
+  font-size: 1.75em;
+  text-transform:uppercase;
+  margin-bottom: 0.5em;
+}
+
+h3, h4 {
+  margin-bottom: 0.4em;
+}
+
+#header {
+  margin-top: 0.5em;
+}
+
+#header h1 {
+  margin: 0;
+  padding: 0;
+  font-size:3em;
+  letter-spacing: -0.1em;
+}
+
+#publish-date {
+  text-align:right;
+  padding-right:1em;
+  margin-top: 2em;
+}
+
+h2.heading {
+  border-top: 4px solid #555;
+  letter-spacing: 0.2em;
+}
+
+#header p {
+  margin:0;
+  padding:0;
+  letter-spacing: 0.2em;
+}
+
+.light {
+  color:#BBB;
+}
+
+.small {
+  font-size:10px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.close {
+  line-height:0px;
+}
+
+ul.close {
+  line-height:10px;
+}
+
+p {
+  font-size: 1em;
+  font-family: "Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  line-height: 1.7em;
+  color: #555;
+}

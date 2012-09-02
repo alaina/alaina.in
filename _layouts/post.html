@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div id="header" class='four omega'>
+  <h1><a href="/">Diversionist</a></h1>
+</div>
+<div id="sidebar" class="three columns alpha">
+  <div id='publish-date' class='light'> {{ page.date | date_to_string }} </div>
+</div>
+
+<div id="content" class='ten columns omega'>
+  <h2>{{ page.title }}</h2>
+  {{ content }}
+</div>
+

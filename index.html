@@ -1,0 +1,21 @@
+---
+layout: default
+title: Diversionist
+---
+
+<div id="header" class='four alpha'>
+  <h1><a href="/">Alaina Percival</a></h1>
+</div>
+
+<div class='sixteen columns alpha'>
+  <h2 class='heading'>Recent Writings</h2>
+</div>
+<div class='sixteen columns alpha'>
+  <h4><a href='/posts'>Posts</a></h4>
+  <ul id='posts'>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %} 
+  </ul>
+</div>
+
