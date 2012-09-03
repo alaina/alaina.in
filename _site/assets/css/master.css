@@ -1,7 +1,9 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
-  background: url(/assets/img/bg.png);
+  /*background: url(/assets/img/bg.png);*/
+  background: #f9f9f9;
+  color: #556270;
 }
 
 a, a:visited {
@@ -12,6 +14,63 @@ a, a:visited {
 h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited, h4 a, h4 a:visited  {
   color: #EE3C00;
 }
+
+img#headshot {
+  border: 4px solid #FFF;
+  float: right;
+}
+
+#header {
+  margin-top:1em;
+  font-size: 2.6em;
+  font-weight: bold;
+  background: #FFF;
+}
+
+.portfolio_item {
+  margin-bottom:1em;
+}
+
+.portfolio_item h3{
+  margin-top:0;
+}
+
+.bordered {
+  border: 6px solid #556270;
+}
+
+/*http://www.colourlovers.com/palette/1930/cheer_up_emo_kid*/
+
+.grey{
+  color: #556270;
+}
+
+.blue{
+  color: #4ECDC4;
+}
+
+.green{
+  color: #C7F464;
+}
+
+.pink{
+  color: #FF6B6B;
+}
+
+.red{
+  color: #C44D58;
+}
+
+.section {
+  border-top: 3px solid #C44D58;
+  margin-top: 1em;
+}
+
+.section h2 {
+  font-size: 3em;
+  margin-top: 0px;
+}
+
 
 a:hover {
   text-decoration: underline;
@@ -26,10 +85,6 @@ li {
   margin: 0.5em 0;
 }
 
-h1 {
-  
-}
-
 h2 {
   font-size: 1.75em;
   text-transform:uppercase;
@@ -40,15 +95,9 @@ h3, h4 {
   margin-bottom: 0.4em;
 }
 
-#header {
-  margin-top: 0.5em;
-}
-
 #header h1 {
-  margin: 0;
-  padding: 0;
-  font-size:3em;
-  letter-spacing: -0.1em;
+  display: inline;
+  font-size:1em;
 }
 
 #publish-date {
